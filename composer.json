@@ -1,0 +1,28 @@
+{
+    "name": "leo108/php_sdk_skeleton",
+    "description": "A skeleton for PHP SDK development",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leo108",
+            "email": "leo108@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "guzzlehttp/guzzle": "^6.3",
+        "psr/log": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leo108\\SDK\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    }
+}
